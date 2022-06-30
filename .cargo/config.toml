@@ -1,0 +1,7 @@
+target-applies-to-host = false
+
+[build]
+rustflags = ["--cfg", "it_works"]
+
+[unstable]
+target-applies-to-host = true
